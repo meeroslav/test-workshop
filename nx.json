@@ -34,7 +34,7 @@
   },
   "projects": {
     "api": {
-      "tags": ["scope:api", "type:app"]
+      "tags": ["scope:api", "type:app", "scope:new"]
     },
     "api-util-notifications": {
       "tags": ["type:util", "scope:api"]
