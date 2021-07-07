@@ -1984,6 +1984,17 @@
     semver "7.3.4"
     tslib "^2.0.0"
 
+"@nrwl/devkit@^12.5.7":
+  version "12.5.7"
+  resolved "https://registry.yarnpkg.com/@nrwl/devkit/-/devkit-12.5.7.tgz#9f49ae2b884f0b440bda79ffedfae984c878827f"
+  integrity sha512-zVH8edxO59GeOzmwcw6qBpQVT0yX9aHdhP5/XAUgPOYINdHIDMy1IZHyhb19fefT4Ju6wUil+1L9g9KvUpULcw==
+  dependencies:
+    "@nrwl/tao" "12.5.7"
+    ejs "^3.1.5"
+    ignore "^5.0.4"
+    semver "7.3.4"
+    tslib "^2.0.0"
+
 "@nrwl/eslint-plugin-nx@12.5.1":
   version "12.5.1"
   resolved "https://registry.yarnpkg.com/@nrwl/eslint-plugin-nx/-/eslint-plugin-nx-12.5.1.tgz#f49bc465ddd3dd8714adcb80b25859f73542dd8a"
@@ -2072,6 +2083,22 @@
   version "12.5.1"
   resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-12.5.1.tgz#f402aa035eba78fe56c42753832a574c663e9b53"
   integrity sha512-ypceS04papLohK2vJqqfdGLReiz9tqRlYBMzvozvAFM+PMGVTgvajW2IV0CGB5I1JulByGWV7xwgHdvJPMnEEw==
+  dependencies:
+    chalk "4.1.0"
+    enquirer "~2.3.6"
+    fs-extra "^9.1.0"
+    jsonc-parser "3.0.0"
+    rxjs "^6.5.4"
+    rxjs-for-await "0.0.2"
+    semver "7.3.4"
+    tmp "~0.2.1"
+    tslib "^2.0.0"
+    yargs-parser "20.0.0"
+
+"@nrwl/tao@12.5.7":
+  version "12.5.7"
+  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-12.5.7.tgz#007e0ee743230cbfc18eae8aabba2aace8b3488d"
+  integrity sha512-H3kxmbPxYV3qG8TkjjqyLFVBW6Np1Ft3+iaoXr0Agh88I3oJhuxVFKHdclahAVGy76VtVjvnXr8lc4J9/6E0cA==
   dependencies:
     chalk "4.1.0"
     enquirer "~2.3.6"
