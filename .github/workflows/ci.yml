@@ -2,6 +2,10 @@ name: Run CI checks # The name will show up on the GitHub Actions dashboard
 
 on: [pull_request] # This workflow will run only on Pull Requests
 
+env:
+  NX_BRANCH: ${{ github.event.number }}
+  NX_RUN_GROUP: ${{ github.run_id }}
+
 jobs:
   lint: # give our job an ID
     runs-on: ubuntu-latest # the image our job will run on
