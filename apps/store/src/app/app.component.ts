@@ -14,5 +14,5 @@ export class AppComponent {
 
   formatRating = formatRating;
 
-  constructor(private readonly http: HttpClient) {}
+  constructor(private readonly http: HttpClient) { }
 }

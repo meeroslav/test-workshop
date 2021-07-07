@@ -1,0 +1,41 @@
+{
+  "cli": "nx",
+  "id": "util-lib",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Library name",
+      "$default": {
+        "$source": "argv",
+        "index": 0
+      }
+    },
+    "directory": {
+      "type": "string",
+      "description": "The scope of the library",
+      "x-prompt": {
+        "message": "What scope should this belong to?",
+        "type": "list",
+        "items": [
+          {
+            "value": "store",
+            "label": "Store scope"
+          },
+          {
+            "value": "api",
+            "label": "API scope"
+          },
+          {
+            "value": "shared",
+            "label": "Shared scope"
+          }
+        ]
+      },
+      "enum": [
+        "store", "api", "shared"
+      ]
+    }
+  },
+  "required": ["name", "directory"]
+}
